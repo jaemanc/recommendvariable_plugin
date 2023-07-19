@@ -1,6 +1,8 @@
 # recommendvariable_plugin ver 1.0
 ## 한글 변수를 snake / camel / pascal 형식으로 변경해주는 플러그인입니다.
 
+### for intellij, dev version : IntelliJ IDEA 2022.3.3, build IU-223.8836.41. Copyright JetBrains s.r.o., (c) 2000-2023
+
 <br><br><br><br><br>
 
 ## HOW TO USE?
@@ -20,3 +22,4 @@
 <br><br><br><br>
 ## 3. 변경된 변수를 확인.
 <img width="943" alt="image" src="https://github.com/jaemanc/recommendvariable_plugin/assets/104718153/430f82a8-e0c5-481c-8d4d-2b11ae1116a0">
+
