@@ -10,6 +10,7 @@ public class ResponseParser {
         variableName = variableName.replace(",", "");
         variableName = variableName.replace(".", "");
         variableName = variableName.replace("it's","");
+        variableName = variableName.replace("It's","");
         variableName = variableName.trim();
         return variableName;
     }
