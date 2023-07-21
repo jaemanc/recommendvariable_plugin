@@ -15,7 +15,7 @@
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
     intellij plugin for korean, supported for who need variables in korean to english
-    <br> 한글 변수를 snake / camel / pascal 형식으로 변경해주는 플러그인입니다.
+    <br> Plug-in that changes Korean variables to snake/camel/pascal format.
   ]]></description>
 
     <!-- Product and plugin compatibility requirements.
