@@ -1,8 +1,9 @@
 # recommendvariable_plugin ver 1.3
 
-## update 1.3 : <fix> 특정 변수 내부에서 리플레이스 처리 되는 현상 수정
+<br><br>
+#### update 1.3 : <fix> 특정 변수 내부에서 리플레이스 처리 되는 현상 수정
 
-<br><br><br><br><br>
+<br><br>
 
 
 ## 한글 변수를 snake / camel / pascal 형식으로 변경해주는 플러그인입니다.
