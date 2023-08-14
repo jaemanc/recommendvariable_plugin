@@ -3,14 +3,33 @@ package com.org.recommendvariable;
 public class ResponseParser {
 
     public String stringTrimmer(String variableName) {
-        variableName = variableName.replace("a ", "");
-        variableName = variableName.replace("an ", "");
-        variableName = variableName.replace("the", "");
-        variableName = variableName.replace("in ", "");
+
+        if (variableName.startsWith("a ")) {
+            variableName = variableName.substring(1,variableName.length());
+        }
+
+        if (variableName.startsWith("an ")) {
+            variableName = variableName.substring(3,variableName.length());
+        }
+
+        if (variableName.startsWith("the ")) {
+            variableName = variableName.substring(4,variableName.length());
+        }
+
+        if (variableName.startsWith("in ")) {
+            variableName = variableName.substring(3,variableName.length());
+        }
+
+        if (variableName.startsWith("it's")) {
+            variableName = variableName.replace("it's","");
+        }
+        if (variableName.startsWith("It's")) {
+            variableName = variableName.replace("It's","");
+        }
         variableName = variableName.replace(",", "");
         variableName = variableName.replace(".", "");
-        variableName = variableName.replace("it's","");
-        variableName = variableName.replace("It's","");
+
+
         variableName = variableName.trim();
         return variableName;
     }
