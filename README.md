@@ -1,4 +1,8 @@
-# recommendvariable_plugin ver 1.0
+# recommendvariable_plugin ver 1.3
+
+## 특정 변수 내부에서 리플레이스 처리 되는 현상 수정
+
+
 ## 한글 변수를 snake / camel / pascal 형식으로 변경해주는 플러그인입니다.
 
 ### for intellij, dev version : IntelliJ IDEA 2022.3.3, build IU-223.8836.41. Copyright JetBrains s.r.o., (c) 2000-2023
