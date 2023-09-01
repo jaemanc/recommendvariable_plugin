@@ -5,6 +5,15 @@
 
 <br><br>
 
+---
+
+
+<img width="60%" src="https://github.com/jaemanc/recommendvariable_plugin/assets/104718153/e08c15b9-ddfa-43b1-84a0-27a2c4f8c454">
+
+
+---
+
+
 
 ## 한글 변수를 snake / camel / pascal 형식으로 변경해주는 플러그인입니다.
 
